@@ -3,12 +3,12 @@
   organization: Letta
   kind: platform
   topics: [agent-memory, memory-management]
-  url: https://github.com/letta-ai/letta
+  url: https://github.com/letta-ai/letta-code
   evidence_level: B
   summary: "Open-source framework descended from MemGPT for building stateful agents with managed memory."
   caveat: "Features and hosted-service behavior evolve; verify against current documentation before adoption."
   added: 2026-08-25
-  last_verified: 2026-08-25
+  last_verified: 2026-09-16
 - id: mem0
   name: Mem0
   organization: Mem0
@@ -19,7 +19,7 @@
   summary: "A memory layer and service for extracting and retrieving user- and agent-specific memories."
   caveat: "Benchmark results depend heavily on extraction, retrieval, and evaluation settings."
   added: 2026-08-25
-  last_verified: 2026-08-25
+  last_verified: 2026-09-16
 - id: graphiti
   name: Graphiti
   organization: Zep
@@ -30,7 +30,7 @@
   summary: "A temporal knowledge-graph engine designed for changing facts and agent memory."
   caveat: "Graph construction and entity resolution add operational and quality trade-offs."
   added: 2026-08-25
-  last_verified: 2026-08-25
+  last_verified: 2026-09-16
 - id: memos-project
   name: MemOS
   organization: MemTensor
@@ -41,7 +41,7 @@
   summary: "A research system treating memory objects and their lifecycle as operating-system resources."
   caveat: "Early-stage research software; validate interfaces and production readiness independently."
   added: 2026-08-25
-  last_verified: 2026-08-25
+  last_verified: 2026-09-16
 - id: memoryos-project
   name: MemoryOS
   organization: BAIR-NLP
@@ -52,7 +52,7 @@
   summary: "A tiered memory architecture aimed at long-term personalized AI interaction."
   caveat: "Research prototype; repository availability and APIs should be rechecked before use."
   added: 2026-08-25
-  last_verified: 2026-08-25
+  last_verified: 2026-09-16
 - id: mirix-project
   name: MIRIX
   organization: MIRIX-AI
@@ -63,7 +63,7 @@
   summary: "A multi-agent memory architecture separating multiple forms of long-term memory."
   caveat: "Claims are primarily supported by the associated preprint and project artifacts."
   added: 2026-08-25
-  last_verified: 2026-08-25
+  last_verified: 2026-09-16
 - id: langmem
   name: LangMem
   organization: LangChain
@@ -74,4 +74,4 @@
   summary: "Utilities for extracting, consolidating, and using long-term memories in agent workflows."
   caveat: "Framework integration can couple memory semantics to a particular orchestration stack."
   added: 2026-08-25
-  last_verified: 2026-08-25
+  last_verified: 2026-09-16
