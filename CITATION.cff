@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If this curated resource helps your work, please cite the repository."
+title: "Awesome LLM Continual Learning"
+type: dataset
+authors:
+  - family-names: "Yang"
+    given-names: "Chou"
+repository-code: "https://github.com/yangchou19/Awesome-LLM-Continual-Learning"
+license: CC0-1.0
