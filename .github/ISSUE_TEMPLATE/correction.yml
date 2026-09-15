@@ -1,0 +1,18 @@
+name: Correction
+description: Report stale metadata, a broken link, or an inaccurate claim
+title: "[Correction]: "
+labels: [correction]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What should change?
+      description: Include the entry ID and supporting primary source.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Supporting URL
+    validations:
+      required: true

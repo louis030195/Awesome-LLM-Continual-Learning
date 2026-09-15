@@ -1,0 +1,30 @@
+name: Add an industry update
+description: Propose an official project, product, or research release
+title: "[Industry]: "
+labels: [industry]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project and organization
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: First-party URL
+      placeholder: https://github.com/organization/project
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Technical evidence and date verified
+    validations:
+      required: true
+  - type: textarea
+    id: caveat
+    attributes:
+      label: Known limitation or caveat
+    validations:
+      required: true

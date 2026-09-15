@@ -1,0 +1,40 @@
+name: Add a paper
+description: Propose an academic work for the structured list
+title: "[Paper]: "
+labels: [paper]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Paper title
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Stable paper URL
+      placeholder: https://arxiv.org/abs/...
+    validations:
+      required: true
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Primary topic
+      options:
+        - surveys-and-foundations
+        - parametric-continual-learning
+        - test-time-learning
+        - agent-memory
+        - memory-management
+        - personalization
+        - self-improving-agents
+        - evaluation-benchmarks
+        - safety-privacy-governance
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why read it, and what is the main caveat?
+    validations:
+      required: true
