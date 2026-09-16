@@ -1,4 +1,6 @@
 from pathlib import Path
+import subprocess
+import sys
 import unittest
 
 import yaml
@@ -8,6 +10,20 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class RepositoryTests(unittest.TestCase):
+    def test_editable_build_requirements_resolve(self):
+        result = subprocess.run(
+            [
+                sys.executable,
+                "-c",
+                "from setuptools.build_meta import get_requires_for_build_editable; "
+                "get_requires_for_build_editable({})",
+            ],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
     def test_internal_markdown_links_exist(self):
         missing = []
         for path in ROOT.rglob("*.md"):
