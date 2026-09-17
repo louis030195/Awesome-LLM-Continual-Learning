@@ -4,21 +4,18 @@
 
 [中文](README.zh-CN.md) · [Topics](#topics) · [Reading lists](#reading-lists) · [Industry](industry/README.md) · [Contributing](CONTRIBUTING.md)
 
-This repository tracks academic and industrial progress while keeping every list item reviewable in structured YAML. The generated research and industry tables will live between the managed markers below.
+This documentation-first repository tracks academic and industrial progress in a deliberately simple structure: the READMEs are the curated index, topic pages explain the landscape, and reading lists turn discovery into a repeatable learning workflow.
 
 ## Topics
 
-- Surveys and foundations
-- Parametric continual learning
-- Test-time learning
-- Agent memory and memory management
-- Personalization
-- Self-improving agents
-- Evaluation, safety, privacy, and governance
+- [Parametric continual learning](topics/parametric-continual-learning.md)
+- [Agent memory](topics/agent-memory.md)
+- [Personalization](topics/personalization.md)
+- [Self-improving agents](topics/self-improving-agents.md)
+- [Evaluation and benchmarks](topics/evaluation-benchmarks.md)
 
 ## Papers
 
-<!-- PAPERS:START -->
 ### Surveys & Foundations
 
 | Year | Paper | Status | Priority | Evidence | Why read |
@@ -86,11 +83,9 @@ This repository tracks academic and industrial progress while keeping every list
 | 2025 | [RECALL: A Benchmark for Continual Learning in Large Language Models](https://aclanthology.org/2025.emnlp-main.829/) | published | P1 | A | Measures acquisition and retention under sequential learning conditions. |
 | 2024 | [Evaluating Very Long-Term Conversational Memory of LLM Agents](https://aclanthology.org/2024.acl-long.747/) | published | P0 | A | A long-conversation benchmark for question answering, event summarization, and temporal understanding. |
 | 2024 | [LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory](https://openreview.net/forum?id=pZiyCaVuti) | published | P0 | A | Tests information extraction, multi-session reasoning, temporal reasoning, and abstention over long histories. |
-<!-- PAPERS:END -->
 
 ## Industry updates
 
-<!-- INDUSTRY:START -->
 | Project | Organization | Kind | Evidence | Summary | Caveat |
 |---|---|---|:---:|---|---|
 | [Graphiti](https://github.com/getzep/graphiti) | Zep | open-source | B | A temporal knowledge-graph engine designed for changing facts and agent memory. | Graph construction and entity resolution add operational and quality trade-offs. |
@@ -100,7 +95,6 @@ This repository tracks academic and industrial progress while keeping every list
 | [MemoryOS](https://github.com/BAI-LAB/MemoryOS) | BAIR-NLP | research-release | B | A tiered memory architecture aimed at long-term personalized AI interaction. | Research prototype; repository availability and APIs should be rechecked before use. |
 | [MemOS](https://github.com/MemTensor/MemOS) | MemTensor | research-release | B | A research system treating memory objects and their lifecycle as operating-system resources. | Early-stage research software; validate interfaces and production readiness independently. |
 | [MIRIX](https://github.com/Mirix-AI/MIRIX) | MIRIX-AI | research-release | B | A multi-agent memory architecture separating multiple forms of long-term memory. | Claims are primarily supported by the associated preprint and project artifacts. |
-<!-- INDUSTRY:END -->
 
 ## Reading lists
 

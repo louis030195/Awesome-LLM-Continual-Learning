@@ -4,20 +4,18 @@
 
 [English](README.md) · [专题导航](#专题导航) · [阅读清单](#阅读清单) · [工业动态](industry/README.md) · [参与贡献](CONTRIBUTING.md)
 
-本仓库同时追踪学术界和工业界进展。所有条目以 YAML 作为唯一数据源，经自动校验后生成下方表格，便于长期维护、个人阅读标记与公开分享。
+本仓库以纯文档方式追踪学术界和工业界进展：README 是精选索引，专题页解释研究脉络，阅读清单用于持续学习与公开分享。
 
 ## 专题导航
 
-- 综述与基础
-- 参数持续学习与测试时学习
-- 智能体记忆与记忆管理
-- 个性化
-- 自我改进智能体
-- 评测、安全、隐私与治理
+- [参数持续学习](topics/parametric-continual-learning.md)
+- [智能体记忆](topics/agent-memory.md)
+- [个性化](topics/personalization.md)
+- [自我改进智能体](topics/self-improving-agents.md)
+- [评测与基准](topics/evaluation-benchmarks.md)
 
 ## 论文
 
-<!-- PAPERS:START -->
 ### 综述与基础
 
 | Year | Paper | Status | Priority | Evidence | Why read |
@@ -85,11 +83,9 @@
 | 2025 | [RECALL: A Benchmark for Continual Learning in Large Language Models](https://aclanthology.org/2025.emnlp-main.829/) | published | P1 | A | Measures acquisition and retention under sequential learning conditions. |
 | 2024 | [Evaluating Very Long-Term Conversational Memory of LLM Agents](https://aclanthology.org/2024.acl-long.747/) | published | P0 | A | A long-conversation benchmark for question answering, event summarization, and temporal understanding. |
 | 2024 | [LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory](https://openreview.net/forum?id=pZiyCaVuti) | published | P0 | A | Tests information extraction, multi-session reasoning, temporal reasoning, and abstention over long histories. |
-<!-- PAPERS:END -->
 
 ## 工业动态
 
-<!-- INDUSTRY:START -->
 | Project | Organization | Kind | Evidence | Summary | Caveat |
 |---|---|---|:---:|---|---|
 | [Graphiti](https://github.com/getzep/graphiti) | Zep | open-source | B | A temporal knowledge-graph engine designed for changing facts and agent memory. | Graph construction and entity resolution add operational and quality trade-offs. |
@@ -99,7 +95,6 @@
 | [MemoryOS](https://github.com/BAI-LAB/MemoryOS) | BAIR-NLP | research-release | B | A tiered memory architecture aimed at long-term personalized AI interaction. | Research prototype; repository availability and APIs should be rechecked before use. |
 | [MemOS](https://github.com/MemTensor/MemOS) | MemTensor | research-release | B | A research system treating memory objects and their lifecycle as operating-system resources. | Early-stage research software; validate interfaces and production readiness independently. |
 | [MIRIX](https://github.com/Mirix-AI/MIRIX) | MIRIX-AI | research-release | B | A multi-agent memory architecture separating multiple forms of long-term memory. | Claims are primarily supported by the associated preprint and project artifacts. |
-<!-- INDUSTRY:END -->
 
 ## 阅读清单
 

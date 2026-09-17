@@ -1,4 +1,4 @@
-name: Validate curated data
+name: Check Markdown links
 
 on:
   pull_request:
@@ -9,19 +9,16 @@ permissions:
   contents: read
 
 jobs:
-  validate:
+  links:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
         with:
-          python-version: "3.12"
-          cache: pip
-      - name: Install test dependencies
-        run: python -m pip install -e '.[test]'
-      - name: Validate YAML data
-        run: python scripts/validate_data.py
-      - name: Verify generated README files
-        run: python scripts/generate_readme.py --check
-      - name: Run tests
-        run: python -m pytest -q
+          args: >-
+            --verbose
+            --no-progress
+            --accept 200,429
+            './**/*.md'
+          fail: true

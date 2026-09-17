@@ -11,4 +11,4 @@ Parametric continual learning updates model weights as data, tasks, or time peri
 
 ## Suggested path
 
-Start with the [survey](../data/papers.yaml), then compare ConPET and InsCL with temporal continual pretraining benchmarks such as TiC-LM and RECALL. Treat test-time weight updates as a related but higher-risk branch.
+Start with the [survey in the main list](../README.md#surveys--foundations), then compare ConPET and InsCL with temporal continual pretraining benchmarks such as TiC-LM and RECALL. Treat test-time weight updates as a related but higher-risk branch.

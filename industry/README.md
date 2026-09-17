@@ -1,6 +1,6 @@
 # Industry Landscape
 
-This page separates deployable projects and official research releases from the academic paper list. The canonical entries live in [`data/industry.yaml`](../data/industry.yaml), and a generated summary appears in the root README.
+This page explains how to evaluate deployable projects and official research releases separately from academic papers. The curated project table lives in the root [README](../README.md#industry-updates).
 
 ## How to read the list
 

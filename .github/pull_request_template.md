@@ -8,8 +8,7 @@
 
 ## Checklist
 
-- [ ] I edited YAML source data rather than generated README rows.
+- [ ] I updated both English and Chinese indexes when the change affects the main list.
 - [ ] I included a concise reason to read/use the item and a caveat where appropriate.
-- [ ] `python scripts/validate_data.py` passes.
-- [ ] `python scripts/generate_readme.py --check` passes.
+- [ ] All local Markdown links resolve.
 - [ ] I am not publishing private reading notes or personal data.
