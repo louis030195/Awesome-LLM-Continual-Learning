@@ -89,6 +89,7 @@
 | Project | Organization | Kind | Evidence | Summary | Caveat |
 |---|---|---|:---:|---|---|
 | [Graphiti](https://github.com/getzep/graphiti) | Zep | open-source | B | A temporal knowledge-graph engine designed for changing facts and agent memory. | Graph construction and entity resolution add operational and quality trade-offs. |
+| [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) | Louis Beaumont | open-source | B | Rust 知识存储，提供加密、签名的只追加记录、设备同步，以及有范围和有效期限制的 MCP 访问授权。 | 开发者 alpha 阶段；授权不会隔离本地进程，托管模型可看到返回的明文。 |
 | [LangMem](https://github.com/langchain-ai/langmem) | LangChain | open-source | B | Utilities for extracting, consolidating, and using long-term memories in agent workflows. | Framework integration can couple memory semantics to a particular orchestration stack. |
 | [Letta](https://github.com/letta-ai/letta-code) | Letta | platform | B | Open-source framework descended from MemGPT for building stateful agents with managed memory. | Features and hosted-service behavior evolve; verify against current documentation before adoption. |
 | [Mem0](https://github.com/mem0ai/mem0) | Mem0 | open-source | B | A memory layer and service for extracting and retrieving user- and agent-specific memories. | Benchmark results depend heavily on extraction, retrieval, and evaluation settings. |

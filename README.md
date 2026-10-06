@@ -89,6 +89,7 @@ This documentation-first repository tracks academic and industrial progress in a
 | Project | Organization | Kind | Evidence | Summary | Caveat |
 |---|---|---|:---:|---|---|
 | [Graphiti](https://github.com/getzep/graphiti) | Zep | open-source | B | A temporal knowledge-graph engine designed for changing facts and agent memory. | Graph construction and entity resolution add operational and quality trade-offs. |
+| [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) | Louis Beaumont | open-source | B | Rust knowledge store with encrypted, signed append-only records, device sync, and scoped, expiring MCP access grants. | Developer alpha; grants do not sandbox local processes, and hosted models can see returned plaintext. |
 | [LangMem](https://github.com/langchain-ai/langmem) | LangChain | open-source | B | Utilities for extracting, consolidating, and using long-term memories in agent workflows. | Framework integration can couple memory semantics to a particular orchestration stack. |
 | [Letta](https://github.com/letta-ai/letta-code) | Letta | platform | B | Open-source framework descended from MemGPT for building stateful agents with managed memory. | Features and hosted-service behavior evolve; verify against current documentation before adoption. |
 | [Mem0](https://github.com/mem0ai/mem0) | Mem0 | open-source | B | A memory layer and service for extracting and retrieving user- and agent-specific memories. | Benchmark results depend heavily on extraction, retrieval, and evaluation settings. |
